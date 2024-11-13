@@ -1,0 +1,64 @@
+.fraunces {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+
+*{
+    font-size: 0.875rem;
+    font-family: Montserrat;
+}
+
+body {
+    display: flex;
+    background-color: hsl(30, 38%, 92%);
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1, h2, h3, p {
+    overflow-wrap: break-word;
+}
+
+.mobile{
+    display: none;
+}
+
+.all{
+    display: flex;
+    flex: 1 0 1;
+    margin: auto;
+    background-color: white;
+    width: 36rem;
+    border-radius: 1rem;
+}
+
+.content {
+    padding: 3rem;
+}
+
+img{
+    overflow:hidden ;
+}
+
+h1, p {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+}
+
+h2 {
+    font-family: 'fraunces';
+    font-size: 2rem;
+    color: hsl(212, 21%, 14%);
+}
+
+@media screen () {
+    
+}
