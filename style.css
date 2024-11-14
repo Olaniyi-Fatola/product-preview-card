@@ -78,6 +78,7 @@ h2 {
 .price > p {
     padding-left: 1rem;
     padding-bottom: 1rem;
+    text-decoration: line-through;
 }
 
 h3 {
